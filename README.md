@@ -1,4 +1,4 @@
-#💻 Laptop Price Predictor Web Application
+💻 Laptop Price Predictor Web Application
 
 A Machine Learning based web application that predicts the price of a laptop based on its specifications such as RAM, weight, company, CPU, GPU, operating system, and more.
 
