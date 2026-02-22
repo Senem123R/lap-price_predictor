@@ -9,14 +9,14 @@ This project is built using:
 🤖 Machine Learning (Pickle Model)
 🎨 HTML & CSS
 
-🚀 Features
+🚀 Features -----
 User-friendly web interface
 Predicts laptop price instantly
 Uses trained ML model (predictor.pickle)
 Supports multiple laptop brands and configurations
 Converts predicted value into LKR currency
 
-🖥️ Input Parameters
+🖥️ Input Parameters ----
 The model takes the following inputs:
 RAM (GB)
 Weight (Kg)
@@ -28,7 +28,7 @@ GPU (Intel, AMD, Nvidia)
 Touchscreen (Yes/No)
 IPS Display (Yes/No)
 
-📂 Project Structure
+📂 Project Structure ----
 Laptop-Price-Predictor/
 │
 ├── app.py
@@ -39,14 +39,14 @@ Laptop-Price-Predictor/
 ├── templates/
 │   └── index1.html
 └── README.md
-⚙️ How It Works
 
-User enters laptop specifications.
+⚙️ How It Works-----
+User enters laptop specifications
 Flask collects form data.
 Categorical values are converted into one-hot encoded format.
 The trained machine learning model predicts the price.
 
-🧠 Machine Learning Model
+🧠 Machine Learning Model ----
 The model is saved using pickle.
 It loads inside the prediction() function.
 Feature engineering includes:
